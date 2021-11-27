@@ -13,4 +13,5 @@ int main()
     cout << "ofstream fout(\"" << filename << ".out\");\n";
     ofstream(filename + ".in");
     ofstream(filename + ".out");
+    return 0;
 }
