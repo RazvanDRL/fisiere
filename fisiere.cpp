@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <fstream>
+#include <cstring>
 using namespace std;
 
 int main()
@@ -6,7 +8,8 @@ int main()
     string filename;
     cout << "Introdu numele fisierului:\n";
     cin >> filename;
-    cout << "#include <bits/stdc++.h>\n";
+    cout << "#include <iostream>\n";
+    cout << "#include <fstream>\n";
     cout << "using namespace std;\n";
     cout << endl;
     cout << "ifstream fin(\"" << filename << ".in\");\n";
